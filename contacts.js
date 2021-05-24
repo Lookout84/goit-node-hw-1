@@ -12,7 +12,7 @@ const getData = () => {
 const listContacts = async () => {
   try {
     const data = await getData();
-    return console.log(JSON.parse(data));
+    return console.table(JSON.parse(data));
   } catch (error) {
     return console.log(error.message);
   }
@@ -39,7 +39,7 @@ const removeContact = async (contactId) => {
       (contact) => String(contact.id) !== contactId
     );
     await fs.writeFile(contactsPath, JSON.stringify(filterdDataOfId, null, 2));
-    return console.log(`Contact with id = ${contactId} is removed`);
+    return console.log(`Contact with id#${contactId} is removed`);
   } catch (error) {
     return console.log(error.message);
   }
