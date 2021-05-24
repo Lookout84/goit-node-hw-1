@@ -1,7 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 
-const contactsPath = path.basename("./db/contacts.json");
+const contactsPath = path.join("./db/contacts.json");
 
 // TODO: задокументировать каждую функцию
 function listContacts() {
