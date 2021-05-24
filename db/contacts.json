@@ -12,12 +12,6 @@
     "phone": "(294) 840-6685"
   },
   {
-    "id": 3,
-    "name": "Kennedy Lane",
-    "email": "mattis.Cras@nonenimMauris.net",
-    "phone": "(542) 451-7038"
-  },
-  {
     "id": 4,
     "name": "Wylie Pope",
     "email": "est@utquamvel.net",
@@ -61,6 +55,18 @@
   },
   {
     "id": "17e0c365-c585-460e-9e59-0e86c7c01996",
+    "name": "Mango",
+    "email": "mango@gmail.com",
+    "phone": "322-22-22"
+  },
+  {
+    "id": "04399c6d-ccb6-4424-a9ed-ba5c471de381",
+    "name": "Mango",
+    "email": "mango@gmail.com",
+    "phone": "322-22-22"
+  },
+  {
+    "id": "241f3ecb-6515-43cc-95b7-65cbf06a6f14",
     "name": "Mango",
     "email": "mango@gmail.com",
     "phone": "322-22-22"
